@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>W-ART</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="addToCart.css">
+</head>
+<body>
+ <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+   <div class="container">
+     <a class="navbar-brand" href="index.html">w-ART<span>Dungog Sang Iloilo</span></a>
+     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="oi oi-menu"></span> Menu
+   </button>
+
+   <div class="collapse navbar-collapse" id="ftco-nav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+      <li class="nav-item active"><a href="about.html" class="nav-link">About</a></li>
+      <li class="nav-item"><a href="destination.html" class="nav-link">Products</a></li>
+      <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+      <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+       <li class="nav-item"><a href="userpayment.php" class="nav-link">Review Order</a></li>
+       <li class="nav-item"><a href="cart.php" class="nav-link">Cart</a></li>
+       <li class="nav-item"><a href="profile.php" class="nav-link">Profile</a></li>
+      
+    </ul>
+ </div>
+</div>
+</nav>
+<!-- END nav -->
+
+<section class="hero-wrap hero-wrap-2 js-fullheight" style="background-image: url('images/download (5).jpg');">
+  <div class="overlay"></div>
+  <div class="container">
+    <div class="row no-gutters slider-text js-fullheight align-items-end justify-content-center">
+      <div class="col-md-9 ftco-animate pb-5 text-center">
+         <p class="breadcrumbs"><span class="mr-2"><a href="index.html">Home <i class="fa fa-chevron-right"></i></a></span> <span>Products <i class="fa fa-chevron-right"></i></span></p>
+         <h1 class="mb-0 bread">Product List</h1>
+     </div>
+ </div>
+</div>
+</section>
+
+
+<section class="ftco-section">
+
+  <audio id="BR" src="../fallorina/audio/banaue.mp3"></audio>
+  <audio id="TI" src="../fallorina/audio/tinago.mp3"></audio>
+  <audio id="SI" src="../fallorina/audio/siargao.mp3"></audio>
+  <audio id="EI" src="../fallorina/audio/ElNIdo.mp3"></audio>
+  <audio id="BI" src="../fallorina/audio/Bora.mp3"></audio>
+  <audio id="GI" src="../fallorina/audio/guima.mp3"></audio>
+  <audio id="BTI" src="../fallorina/audio/bitaog.mp3"></audio>
+  <audio id="DP" src="../fallorina/audio/danao.mp3"></audio>
+  <audio id="HP" src="../fallorina/audio/hinag.mp3"></audio>
+
+   <div class="container">
+    <div class="row">
+       <div class="col-md-4 ftco-animate">
+          <div class="project-wrap">
+             <a href="booked.php?tour=Banig&image=images/banig.jpg&price=500" class="img" style="background-image: url(images/banig.jpg);">
+                <span class="price">499</span>
+            </a>
+            <div class="text p-4">
+                <span class="days">woven mats, known as "banig," are traditionally used for sleeping and sitting, often made from dried leaves like pandan or buri palm. </span>
+                <h3><a href="#">Woven Mat</a></h3>
+                <p class="location"><span class="fa fa-map-marker"></span> Iloilo, Philippines</p>
+                <form action="process.php" method="POST">
+                  <input type="hidden"  value="Woven Mat" name="product_name">
+                    <input type="hidden" value="500" name="product_price">
+                    <input type="hidden" value="images/banig.jpg" name="product_image">
+                <button type="submit" name="addcart">Add To Cart</button>
+                </form>
+           </div>
+       </div>
+   </div>
+   <div class="col-md-4 ftco-animate">
+      <div class="project-wrap">
+         <a href="booked.php?tour=Woven Basket&image=images/baghm.jpg&price=650" class="img" style="background-image: url(images/baghm.jpg);">
+            <span class="price">P650</span>
+        </a>
+        <div class="text p-4">
+            <span class="days">Woven hand-carry bags, like those made from materials like rattan or strong fabric, exceptionally durable choice and tradional.</span>
+            <h3><a href="#"></a>Woven Basket</h3>
+            <p class="location"><span class="fa fa-map-marker"></span> Iloilo, Philippines</p>
+            <form action="process.php" method="POST">
+              <input type="hidden"  value="Woven Basket" name="product_name">
+                <input type="hidden" value="650" name="product_price">
+                <input type="hidden" value="images/baghm.jpg" name="product_image">
+            <button type="submit" name="addcart">Add To Cart</button>
+            </form>
+
+          </div>
+   </div>
+</div>
+
+<div class="col-md-4 ftco-animate">
+  <div class="project-wrap">
+     <a href="booked.php?tour=Wovem Hand Carry Bag&image=images/ecobaghm.jpg&price=750" class="img" style="background-image: url(images/ecobaghm.jpg);">
+        <span class="price">P750</span>
+    </a>
+    <div class="text p-4">
+        <span class="days"> Woven hand carry bags offer several benefits, including durability, moisture resistance, and cost-effectiveness; recyclable and reusable, contributing to sustainability. </span>
+        <h3><a href="#">Woven Hand Carry Bag</a></h3>
+        <p class="location"><span class="fa fa-map-marker"></span> Iloilo, Philippines</p>
+        <form action="process.php" method="POST">
+          <input type="hidden"  value="Woven Hand Carry Bag" name="product_name">
+            <input type="hidden" value="750" name="product_price">
+            <input type="hidden" value="images/ecobaghm.jpg" name="product_image">
+        <button type="submit" name="addcart">Add To Cart</button>
+        </form>
+
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4 ftco-animate">
+  <div class="project-wrap">
+     <a href="booked.php?tour=Handmade Wooden Utensil&image=images/wood.jpg&price=300" class="img" style="background-image: url(images/wood.jpg);">
+        <span class="price">P300</span>
+    </a>
+    <div class="text p-4">
+        <span class="days">Wooden utensils offer several benefits, including being gentle on cookware, heat-resistant, and environmentally friendly, while also enhancing the flavor of certain dishes. </span>
+        <h3><a href="#">Handmade Wooden Utensil</a></h3>
+        <p class="location"><span class="fa fa-map-marker"></span> Iloilo, Philippines</p>
+        <form action="process.php" method="POST">
+          <input type="hidden"  value="Handmade Wooden Utensil" name="product_name">
+            <input type="hidden" value="300" name="product_price">
+            <input type="hidden" value="images/wood.jpg" name="product_image">
+        <button type="submit" name="addcart">Add To Cart</button>
+        </form>
+
+   </div>
+</div>
+</div>
+<div class="col-md-4 ftco-animate">
+  <div class="project-wrap">
+     <a href="booked.php?tour=Handcrafted Braided Necklace&image=images/necklacehm.png&price=250" class="img" style="background-image: url(images/necklacehm.jpg);">
+        <span class="price">P250</span>
+    </a>
+    <div class="text p-4">
+        <span class="days">Stress reduction through the meditative nature of the craft, a sense of accomplishment, and the ability to create unique, personalized accessories. </span>
+        <h3><a href="#">Handcrafted Braided Necklace</a></h3>
+        <p class="location"><span class="fa fa-map-marker"></span> Iloilo, Philippines</p>
+        <form action="process.php" method="POST">
+          <input type="hidden"  value="Handcrafted Braided Necklace" name="product_name">
+            <input type="hidden" value="250" name="product_price">
+            <input type="hidden" value="images/necklacehm.jpg"name="product_image">
+        <button type="submit" name="addcart">Add To Cart</button>
+        </form>
+        
+   </div>
+</div>
+</div>
+<div class="col-md-4 ftco-animate">
+  <div class="project-wrap">
+     <a href="booked.php?tour=Braided Bracelet&image=images/kelenet.jpg&price=400" class="img" style="background-image: url(images/kelenet.jpg);">
+        <span class="price">P400</span>
+    </a>
+    <div class="text p-4">
+        <span class="days">Improved fine motor skills, creativity, and social skills, while also promoting mindfulness and stress reduction. </span>
+        <h3><a href="#">Braided Bracelet</a></h3>
+        <p class="location"><span class="fa fa-map-marker"></span> Iloilo, Philippines</p>
+        <form action="process.php" method="POST">
+          <input type="hidden"  value="Braided Bracelet" name="product_name">
+            <input type="hidden" value="400" name="product_price">
+            <input type="hidden" value="images/kelenet.jpg" name="product_image">
+        <button type="submit" name="addcart">Add To Cart</button>
+        </form>
+       
+   </div>
+</div>
+</div>
+<div class="col-md-4 ftco-animate">
+  <div class="project-wrap">
+     <a href="booked.php?tour=Pottery (Vase)&image=images/vas.jpg&price=1500" class="img" style="background-image: url(images/vas.jpg);">
+        <span class="price">P1500</span>
+    </a>
+    <div class="text p-4">
+        <span class="days">Handmade vases offer unique designs, a rustic charm, and a personal touch, while also being durable and potentially sustainable, making them a valuable and aesthetically pleasing addition to any home or space. </span>
+        <h3><a href="#">Pottery (Vase)</a></h3>
+        <p class="location"><span class="fa fa-map-marker"></span> Iloilo, Philippines</p>
+        <form action="process.php" method="POST">
+          <input type="hidden"  value="Pottery (Vase)" name="product_name">
+            <input type="hidden" value="1500" name="product_price">
+            <input type="hidden" value="images/vas.jpg" name="product_image">
+        <button type="submit" name="addcart">Add To Cart</button>
+        </form>
+        
+   </div>
+</div>
+</div>
+<div class="col-md-4 ftco-animate">
+  <div class="project-wrap">
+     <a href="booked.php?tour=Wooden Carved Earring&image=images/arringshm.jpg&price=400" class="img" style="background-image: url(images/earringshm.jpg);">
+        <span class="price">P400</span>
+    </a>
+    <div class="text p-4">
+        <span class="days">lightweight and comfortable, hypoallergenic, and environmentally friendly, while also providing a unique and natural aesthetic. </span>
+        <h3><a href="#">Wooden Carved Earring</a></h3>
+        <p class="location"><span class="fa fa-map-marker"></span> Iloilo, Philippines</p>
+        <form action="process.php" method="POST">
+          <input type="hidden"  value="Wooden Carved Earring" name="product_name">
+            <input type="hidden" value="400" name="product_price">
+            <input type="hidden" value="images/earringshm.jpg" name="product_image">
+        <button type="submit" name="addcart">Add To Cart</button>
+        </form>
+       
+   </div>
+</div>
+</div>
+<div class="col-md-4 ftco-animate">
+  <div class="project-wrap">
+     <a href="booked.php?tour=Pottery (Plates)&image=images/platehm.jpg&price=800" class="img" style="background-image: url(images/platehm.jpg);">
+        <span class="price">P500</span>
+    </a>
+    <div class="text p-4">
+        <span class="days">Unique beauty, durability, and a connection to craftsmanship, while also being environmentally friendly and safe for food, as they are made from natural materials and don't leach chemicals. </span>
+        <h3><a href="#">Pottery (Plates)</a></h3>
+        <p class="location"><span class="fa fa-map-marker"></span>Iloilo, Philippines</p>
+        <form action="process.php" method="POST">
+          <input type="hidden"  value="Pottery (Plates)" name="product_name">
+            <input type="hidden" value="500" name="product_price">
+            <input type="hidden" value="images/platehm.jpg" name="product_image">
+        <button type="submit" name="addcart">Add To Cart</button>
+        </form>
+   </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+
+
+<section class="ftco-intro ftco-section ftco-no-pt">
+ <div class="container">
+    <div class="row justify-content-center">
+       <div class="col-md-12 text-center">
+          <div class="img"  style="background-image: url(images/bg_2.jpg);">
+             <div class="overlay"></div>
+             <h2>We are Pinas Explore - Tara Pinas</h2>
+             <p>We can manage your dream building A small river named Duden flows by their place</p>
+             <p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Ask For A Quote</a></p>
+         </div>
+     </div>
+ </div>
+</div>
+</section>  
+
+<footer class="ftco-footer bg-bottom ftco-no-pt" style="background-image: url(images/bg_3.jpg);">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-md pt-5">
+        <div class="ftco-footer-widget pt-md-5 mb-4">
+          <h2 class="ftco-heading-2">About</h2>
+          <p>"Our website, Pinas Explore: Tara Pinas, is your ultimate guide to exploring the Philippines. With intuitive navigation and comprehensive travel resources, we make planning and booking your adventure effortless. From hidden gems to top accommodations, Pinas Explore ensures a seamless travel experience from start to finish."</p>
+          <ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+            <li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+            <li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+            <li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md pt-5 border-left">
+        <div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
+          <h2 class="ftco-heading-2">Infromation</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="py-2 d-block">Online Enquiry</a></li>
+            <li><a href="#" class="py-2 d-block">General Enquiries</a></li>
+            <li><a href="#" class="py-2 d-block">Booking Conditions</a></li>
+            <li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
+            <li><a href="#" class="py-2 d-block">Refund Policy</a></li>
+            <li><a href="#" class="py-2 d-block">Call Us</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md pt-5 border-left">
+        <div class="ftco-footer-widget pt-md-5 mb-4">
+          <h2 class="ftco-heading-2">Experience</h2>
+          <ul class="list-unstyled">
+            <li><a href="#" class="py-2 d-block">Adventure</a></li>
+            <li><a href="#" class="py-2 d-block">Hotel and Restaurant</a></li>
+            <li><a href="#" class="py-2 d-block">Beach</a></li>
+            <li><a href="#" class="py-2 d-block">Nature</a></li>
+            <li><a href="#" class="py-2 d-block">Camping</a></li>
+            <li><a href="#" class="py-2 d-block">Party</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md pt-5 border-left">
+        <div class="ftco-footer-widget pt-md-5 mb-4">
+          <h2 class="ftco-heading-2">Have a Questions?</h2>
+          <div class="block-23 mb-3">
+            <ul>
+              <li><span class="icon fa fa-map-marker"></span><span class="text">Iloilo Philippines</span></li>
+              <li><a href="#"><span class="icon fa fa-phone"></span><span class="text">+63995-835-5155</span></a></li>
+              <li><a href="#"><span class="icon fa fa-paper-plane"></span><span class="text">pinasexplore@gmail.com</span></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <p>
+          Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved  by I-Tech</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery-migrate-3.0.1.min.js"></script>
+<script src="js/popper.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<script src="js/jquery.stellar.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/jquery.animateNumber.min.js"></script>
+<script src="js/bootstrap-datepicker.js"></script>
+<script src="js/scrollax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="js/google-map.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

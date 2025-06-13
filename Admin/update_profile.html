@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?php echo $name;?></title>
+    <style>
+        /* Global Styles */
+body {
+    background-color: #2a2a2a; 
+    color: #f0f0f0; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+/*css for form*/
+form {
+            background-color: #333333;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            width: 600px;
+        }
+
+        h1 {
+            color: #f0f0f0;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        label {
+            color: #f0f0f0;
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 95%;
+            padding: 15px;
+            border-radius: 4px;
+            border: 1px solid #444;
+            background-color: #4a4a4a;
+            color: #f0f0f0;
+            margin-bottom: 15px;
+
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 15px;
+            background-color: #4267B2;
+            color: #f0f0f0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #61dafb;
+        }
+
+        .forms{
+            display: grid;
+            place-items: center;
+            width: 100%;
+        }
+        #back{
+            background-color:green;
+            width: 100%;
+            padding: 15px;
+            color: #f0f0f0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        #back:hover{
+            background-color: lightgreen;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+  <div class="forms">
+    <h1>UPDATE PROFILE FOR ADMIN</h1>
+
+     <form action="process.php?id=<?php echo $id;?>" method="POST" enctype="multipart/form-data">
+        
+        <label>Name</label> </br>
+        <input type="text" name="up_name" value="<?php echo $name?>" > </p>
+
+        <label>Email</label> </br>
+        <input type="email" name="up_email" value="<?php echo $email?>" > </p>
+
+        <label>Password</label> </br>
+        <input type="password" name="up_pass" value="<?php echo $pass?>" > </p>
+
+        <input type="submit" value="UPDATE" name="update_account">
+         
+    <br> </br>
+        
+
+        <input type="submit" value="GO BACK" name="update_account" id="back" >
+
+        
+
+     </form>
+
+     </div>
+
+
+</body>
+</html>
