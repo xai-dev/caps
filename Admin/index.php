@@ -37,7 +37,14 @@
                             <li class="sidebar-item">
                                 <a href="announcement.php" class="sidebar-link">Announcement</a>
                             </li>
+                            
                         </ul>
+                    </li>
+                    <li class="sidebar-item">
+                        <a href="#" class="sidebar-link">
+                            <i class="fa-solid fa-list pe-2"></i>
+                            Add Products
+                        </a>
                     </li>
                         <ul id="auth" class="sidebar-dropdown list-unstyled collapse" data-bs-parent="#sidebar">
                             <li class="sidebar-item">
